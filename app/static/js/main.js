@@ -4,7 +4,6 @@ $(document).ready(function() {
             method: "POST",
             url: "/test",
             success: function(resp) {
-                $('div#log_resp') = resp.data;
             }
         });
     });
