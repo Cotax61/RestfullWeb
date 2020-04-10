@@ -1,0 +1,104 @@
+*{margin: 0; padding: 0}
+body {
+    background-color: white;
+}
+
+.background_image {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    filter: blur(1px) brightness(0.7);
+    display: inline-block;
+}
+
+.banner {
+    position: absolute;
+    z-index: 2;
+    height: 5vh;
+    width: 100%;
+    background-color: cadetblue;
+    box-shadow: 0 0 15px 0 #000;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1; 
+    color: palegoldenrod;
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 25px;
+    top: 1vh;
+    left: 45%;
+}
+
+ul.project_name {
+    top: 2vh;
+}
+
+ul.signin_list {
+    position: absolute;
+    z-index: 2;
+    list-style-type: none;
+    text-align: center;
+    top: 0.5vh;
+    line-height: 190%;
+}
+
+ul.register_list {
+    position: absolute;
+    z-index: 2;
+    list-style-type: none;
+    text-align: center;
+    top: 0.5vh;
+    line-height: 190%;
+}
+
+h2 {
+    z-index: 1; 
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+h4 {
+    z-index: 1; 
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+h5 {
+    z-index: 1; 
+    text-align: center;
+    font-size: 15px;
+}
+
+.signin_container {
+    z-index: 2;
+    width: 250px;
+    height: 8vh;
+    position: absolute;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #000;
+    top: 50%;
+    left: 20%;
+}
+
+.register_container {
+    position: absolute;
+    z-index: 2;
+    width: 180px;
+    height: 8vh;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #000;
+    top: 50%;
+    left: 60%;
+}

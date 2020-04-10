@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Welcome page </title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/js/main.js"></script>
+</head>
+<body>
+    <img src="static/img/epitech.jpg" class="background_image"></img>
+    <div class="banner">
+        <ul class="project_name">
+            <li><h1> Epy-Todo </h1></li>
+        </ul>
+    </div>
+    <div class="signin_container">
+        <ul class="signin_list">
+            <li><h2>Already registered ?</h2></li>
+            <li><h3> Signin </h3></li>
+<!--            <form action="/signin" method="POST">-->
+                        <input type="submit" name="signin" placeholder="signin">
+<!--            </form>-->
+        </ul>
+    </div>
+    <div class="register_container">
+        <ul class="register_list">
+            <li><h4> No account ?</h4></li>
+            <li><h5> Register </h5></li>
+            <form action="/register" method="get">
+                <input type="submit" value="register"
+                    name="register" id="frm1_register" />
+            </form>
+            <li>
+        </ul>
+    </div>
+</body>
+</html>
