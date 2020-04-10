@@ -1,14 +1,14 @@
 $(document).ready(function() {
-    $("button").click(function() {
+    $("button#valid_sigin").click(function() {
         var username = $('text#user').val();
         var password = $('password#password').val();
         $.ajax({
             method: "POST",
-            url: "signin",
+            url: "signinded",
             data: {username, password},
             dataType: "dataType",
             success: function(resp) {
-                $('div#log_resp') = resp.data;
+                $('div#log_resp').append(resp.data);
             }
         });
     });
